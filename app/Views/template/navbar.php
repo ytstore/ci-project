@@ -31,7 +31,7 @@
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-box-arrow-in-right me-1"></i>
-                  Cara Daftar akun
+                  Cara Daftar
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/daftar/aplikasi">Pakai Aplikasi Android</a></li>
