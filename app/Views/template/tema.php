@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
   </head>
-  <body> 
+  <body class="bg-home"> 
 
   <?= $this->include('template/navbar')?>  
 

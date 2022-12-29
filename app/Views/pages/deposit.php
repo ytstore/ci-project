@@ -2,121 +2,134 @@
 
 <?= $this->section('content') ?>
 
-<div class="container">
-  <div class="row">
-    <div class="col my-5">
-      <h1>CARA PENGISIAN SALDO DEPOSIT PULSA</h1>
-      <p>Anda dapat melakukan deposit saldo di Metro Reload minimal Rp 50.000. Deposit dapat dilakukan dengan mengambil tiket via Aplikasi maupun WhatsApp/SMS/Telegram ke nomor center kami. Pembayaran dapat dilakukan via transfer bank, Alfamart, Indomaret, dan Virtual Account (VA). Deposit tidak dikenakan biaya admin (gratis) dan nominal yang nantinya akan masuk ke Akun Anda sesuai dengan nominal yang Anda transfer.</p>
-      <h5>CONTOH :</h5>
-      Anda memesan tiket deposit senilai Rp 100.000,- nanti Anda akan mendapatkan balasan dari server, misalnya Rp 100.567, maka Anda harus transfer sebesar <b>Rp 100.567</b> agar deposit masuk secara otomatis tanpa perlu melakukan komplain/konfirmasi, dan nantinya saldo yang masuk ke akun Anda senilai Rp 100.567.
+<div class="container-fluid bg-heading">
+  <div class="container p-3">
+    <div class="row">
+      <a href="/" class="text-decoration-none">Home</a>
+      <span class="text-white display-3 fs-1">Cara Deposit</span>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="row">
-    <h3>Langkah-Langkah Pengisian Deposit</h3>
-    <div class="col-md-6 gy-3">
-      <div class="d-grid">
-        <button class="btn btn-primary text-center rounded-pill" type="button">1. Pesan Tiket Deposit</button>
-      </div>
-      <div class="col d-inline-flex">
-        <div>
-          <img src="/img/comment.png" style="width: 100px;" alt="">
-        </div>
-        <div class="p-1">
-          <p>Pesan tiket deposit dengan cara kirim ke nomon Center, Whatsapp, Telegram atau melalui Aplikasi.</p>
-          <ul>
-            <li>Ketik Format : <br><b>TIKET.JUMLAH.PIN</b></li>
-            <li>Contoh : <br><b>TIKET.100.000.123456</b></li>
-            <li>kirim ke <b>SMS/WA CENTER <br>NO CENTER BLA BLA BLA</b></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 gy-3">
-      <div class="d-grid">
-        <button class="btn btn-primary text-center rounded-pill" type="button">2. Tunggu Balasan Tiket</button>
-      </div>
-      <div class="col d-inline-flex">
-        <div>
-          <img src="/img/comment.png" style="width: 100px;" alt="">
-        </div>
-        <div class="p-1">
-          <p><b>Contoh SMS Reply / Balasan request tiket :</b><br>
-          <span>Transfer sebelum 21:00 WIB Rp.100.567,- (Harus Persis) ke : BCA : <script type="text/javascript" src="https://metroreload.co.id/rekbca.php"></script>, BNI : <script type="text/javascript" src="https://metroreload.co.id/rekbni.php"></script>, BRI : <script type="text/javascript" src="https://metroreload.co.id/rekbri.php"></script>, MANDIRI : <script type="text/javascript" src="https://metroreload.co.id/rekmandiri.php"></script> a/n CV. <script type="text/javascript" src="https://metroreload.co.id/anbri.php"></script></span></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 gy-3">
-      <div class="d-grid">
-        <button class="btn btn-primary text-center rounded-pill" type="button">3. Transfer Sesuai Tiket</button>
-      </div>
-      <div class="col d-inline-flex">
-        <div>
-          <img src="/img/comment.png" style="width: 100px;" alt="">
-        </div>
-        <div class="p-1">
-          <p><b>Transfer Sesuai Nominal Balasan Tiket</b> Jika sudah mendapatkan SMS balasan. Anda bisa langsung melakukan transfer ke salah satu rekening bank yang tertera. Pastikan jumlah yang Anda transfer sama dengan nominal yang tertera pada SMS balasan, sehingga deposit bisa terinput otomatis oleh sistem.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 gy-3">
-      <div class="d-grid">
-        <button class="btn btn-primary text-center rounded-pill" type="button">4. Deposit Masuk Otomatis</button>
-      </div>
-      <div class="col d-inline-flex">
-        <div>
-          <img src="/img/comment.png" style="width: 100px;" alt="">
-        </div>
-        <div class="p-1">
-          <p><b>Deposit Otomatis Masuk ke Akun Anda</b> Tunggu beberapa menit, biasanya saldo akan otomatis masuk ke akun Anda maksimal dalam 15 menit. Jika tidak ada kesalahan transfer atau internet banking tidak trouble maka Anda bisa langsung memperoleh SMS dari server yang menyatakan saldo Anda sudah diinput.</p>
-        </div>
+  <div class="col-md-12">
+    <div class="bg-body shadow rounded my-3">
+      <h3 class="bg-heading rounded-top text-white p-2 fs-4">CARA PENGISIAN SALDO DEPOSIT PULSA</h3>
+      <div class="p-2">
+        <p>Anda dapat melakukan deposit saldo di Metro Reload minimal Rp 50.000. Deposit dapat dilakukan dengan mengambil tiket via Aplikasi maupun WhatsApp/SMS/Telegram ke nomor center kami. Pembayaran dapat dilakukan via transfer bank, Alfamart, Indomaret, dan Virtual Account (VA). Deposit tidak dikenakan biaya admin (gratis) dan nominal yang nantinya akan masuk ke Akun Anda sesuai dengan nominal yang Anda transfer.</p>
+        <h5>CONTOH :</h5>
+        <p>Anda memesan tiket deposit senilai Rp 100.000,- nanti Anda akan mendapatkan balasan dari server, misalnya Rp 100.567, maka Anda harus transfer sebesar <b>Rp 100.567</b> agar deposit masuk secara otomatis tanpa perlu melakukan komplain/konfirmasi, dan nantinya saldo yang masuk ke akun Anda senilai Rp 100.567.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="d-grid">
-      <button class="btn btn-primary rounded-pill" type="button"><span class="display-5 fs-3"><i class="bi bi-wallet2"></i> REKENING BANK DEPOSIT</span></button>
+  <div class="bg-body shadow rounded my-5">
+    <h5 class="bg-heading rounded-top text-white p-2 mb-3">Langkah-Langkah Pengisian Deposit</h5>
+    <div class="row px-2">
+      <div class="col-md-6 gy-3">
+        <div class="d-grid">
+          <button class="btn btn-primary text-center rounded-pill" type="button">1. Pesan Tiket Deposit</button>
+        </div>
+        <div class="col d-inline-flex">
+          <div>
+            <img src="/img/comment.png" style="width: 100px;" alt="">
+          </div>
+          <div class="p-1">
+            <p>Pesan tiket deposit dengan cara kirim ke nomon Center, Whatsapp, Telegram atau melalui Aplikasi.</p>
+            <ul>
+              <li>Ketik Format : <br><b>TIKET.JUMLAH.PIN</b></li>
+              <li>Contoh : <br><b>TIKET.100.000.123456</b></li>
+              <li>kirim ke <b>SMS/WA CENTER <br>NO CENTER BLA BLA BLA</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 gy-3">
+        <div class="d-grid">
+          <button class="btn btn-primary text-center rounded-pill" type="button">2. Tunggu Balasan Tiket</button>
+        </div>
+        <div class="col d-inline-flex">
+          <div>
+            <img src="/img/comment.png" style="width: 100px;" alt="">
+          </div>
+          <div class="p-1">
+            <p><b>Contoh SMS Reply / Balasan request tiket :</b><br>
+            <span>Transfer sebelum 21:00 WIB Rp.100.567,- (Harus Persis) ke : BCA : <script type="text/javascript" src="https://metroreload.co.id/rekbca.php"></script>, BNI : <script type="text/javascript" src="https://metroreload.co.id/rekbni.php"></script>, BRI : <script type="text/javascript" src="https://metroreload.co.id/rekbri.php"></script>, MANDIRI : <script type="text/javascript" src="https://metroreload.co.id/rekmandiri.php"></script> a/n CV. <script type="text/javascript" src="https://metroreload.co.id/anbri.php"></script></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 gy-3">
+        <div class="d-grid">
+          <button class="btn btn-primary text-center rounded-pill" type="button">3. Transfer Sesuai Tiket</button>
+        </div>
+        <div class="col d-inline-flex">
+          <div>
+            <img src="/img/comment.png" style="width: 100px;" alt="">
+          </div>
+          <div class="p-1">
+            <p><b>Transfer Sesuai Nominal Balasan Tiket</b> Jika sudah mendapatkan SMS balasan. Anda bisa langsung melakukan transfer ke salah satu rekening bank yang tertera. Pastikan jumlah yang Anda transfer sama dengan nominal yang tertera pada SMS balasan, sehingga deposit bisa terinput otomatis oleh sistem.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 gy-3">
+        <div class="d-grid">
+          <button class="btn btn-primary text-center rounded-pill" type="button">4. Deposit Masuk Otomatis</button>
+        </div>
+        <div class="col d-inline-flex">
+          <div>
+            <img src="/img/comment.png" style="width: 100px;" alt="">
+          </div>
+          <div class="p-1">
+            <p><b>Deposit Otomatis Masuk ke Akun Anda</b> Tunggu beberapa menit, biasanya saldo akan otomatis masuk ke akun Anda maksimal dalam 15 menit. Jika tidak ada kesalahan transfer atau internet banking tidak trouble maka Anda bisa langsung memperoleh SMS dari server yang menyatakan saldo Anda sudah diinput.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6 col-lg-3 border text-center text-success my-3 fw-bold">
-      <img src="/img/BCA.png" class="mx-auto border border-success border-3 p-2" style="height: 60px;" alt="">
+  </div>
+</div>
+<!-- START REKENING DEPOSIT -->
+<div class="container">
+  <div class="bg-body shadow rounded my-5">
+    <div class="d-grid mt-3 mb-1">
+      <button class="btn bg-heading rounded-top text-white" type="button"><span class="display-5 fs-5"><i class="bi bi-wallet2"></i> REKENING BANK DEPOSIT</span></button>
+    </div>
+    <div class="row">
+    <div class="col-md-6 col-lg-3 text-center my-3 fw-bold">
+      <img src="/img/BCA.png" class="mx-auto border border-secondary border-2 p-2" style="height: 60px;" alt="">
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/rekbca.php"></script>
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/anbca.php"></script>
     </div>
-    <div class="col-md-6 col-lg-3 border text-center text-success my-3 fw-bold">
-      <img src="/img/BRI.png" class="mx-auto border border-success border-3 p-2" style="height: 60px;" alt="">
+    <div class="col-md-6 col-lg-3 text-center my-3 fw-bold">
+      <img src="/img/BRI.png" class="mx-auto border border-secondary border-2 p-2" style="height: 60px;" alt="">
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/rekbri.php"></script>
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/anbri.php"></script>
     </div>
-    <div class="col-md-6 col-lg-3 border text-center text-success my-3 fw-bold">
-      <img src="/img/BNI.png" class="mx-auto border border-success border-3 p-2" style="height: 60px;" alt="">
+    <div class="col-md-6 col-lg-3 text-center my-3 fw-bold">
+      <img src="/img/BNI.png" class="mx-auto border border-secondary border-2 p-2" style="height: 60px;" alt="">
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/rekbni.php"></script>
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/anbni.php"></script>
     </div>
-    <div class="col-md-6 col-lg-3 border text-center text-success my-3 fw-bold">
-      <img src="/img/MANDIRI.png" class="mx-auto border border-success border-3 p-2" style="height: 60px;" alt="">
+    <div class="col-md-6 col-lg-3 text-center my-3 fw-bold">
+      <img src="/img/MANDIRI.png" class="mx-auto border border-secondary border-2 p-2" style="height: 60px;" alt="">
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/rekmandiri.php"></script>
       <script type="text/javascript" class="d-block" src="https://metroreload.co.id/anmandiri.php"></script>
     </div>
+    </div>
   </div>
 </div>
-
+<!-- END REKENING DEPOSIT -->
+<!-- START PERTANYAAN SEPUTAR DEPOSIT-->
 <div class="container">
-  <div class="row">
-    <h1 class="text-center">Pertanyaan Seputar Deposit</h1>
-    <div class="col">
+  <div class="bg-body rounded shadow">
+    <h5 class="bg-heading rounded text-white p-2">Pertanyaan Seputar Deposit</h5>
+    <div class="col mx-1 pb-1">
       <div class="accordion" id="accordionExample">
-        <div class="accordion my-3">
+        <div class="accordion border-bottom border-dark border-2 my-3">
           <h2 class="accordion-header" id="headingOne">
-            <div class="d-grid">
-            <button class="btn btn-primary d-block rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Bagaimana Jika sudah Transfer tapi saldo deposit belum masuk?
-            </button>
-          </div>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -126,13 +139,11 @@
             </div>
           </div>
         </div>
-        <div class="accordion my-3">
+        <div class="accordion border-bottom border-dark border-2 my-3">
           <h2 class="accordion-header" id="headingTwo">
-            <div class="d-grid">
-            <button class="btn btn-primary d-block rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
               Kenapa setelah transfer deposit terlalu lama masuk ke akun saya?
             </button>
-          </div>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -140,13 +151,11 @@
             </div>
           </div>
         </div>
-        <div class="accordion my-3">
+        <div class="accordion border-bottom border-dark border-2 my-3">
           <h2 class="accordion-header" id="headingThree">
-            <div class="d-grid">
-            <button class="btn btn-primary d-block rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
               Bagaimana jika tidak mempunyai rekening bank untuk transfer?
             </button>
-          </div>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -154,13 +163,11 @@
             </div>
           </div>
         </div>
-        <div class="accordion my-3">
+        <div class="accordion border-bottom border-dark border-2 my-3">
           <h2 class="accordion-header" id="headingFour">
-            <div class="d-grid">
-            <button class="btn btn-primary d-block rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
               Bagaimana melakukan deposit diluar jam kerja customer service?
             </button>
-          </div>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -168,13 +175,11 @@
             </div>
           </div>
         </div>
-        <div class="accordion my-3">
+        <div class="accordion border-bottom border-dark border-2 my-3">
           <h2 class="accordion-header" id="headingFive">
-            <div class="d-grid">
-            <button class="btn btn-primary d-block rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
               Bolehkan langsung transfer tanpa harus request tiket deposit?
             </button>
-          </div>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -186,14 +191,15 @@
     </div>
   </div>
 </div>
+<!--END PERTANYAAN SEPUTAR DEPOSIT -->
 
 <div class="container">
-  <div class="row text-center">
+  <div class="row justify-content-center text-center my-5">
     <div class="col-md-6">
-      <h3>Butuh Bantuan / Pertanyaan?</h3>
+      <h3 class="bg-heading rounded shadow text-white d-inline-flex p-3">Butuh Bantuan / Pertanyaan?</h3>
     </div>
     <div class="col-md-6">
-      <button class="btn btn-primary rounded-pill" type="button">Hubungi Kami</button>
+      <a href="/contact"><button class="btn bg-yellow rounded-pill shadow fw-bold p-3" type="button"><i class="bi bi-headset me-1"></i>Hubungi Kami</button></a>
     </div>
   </div>
 </div>

@@ -45,10 +45,11 @@ $routes->get('/harga/token_pln','Pages::token_pln');
 $routes->get('/harga/voucher_game','Pages::voucher_game');
 $routes->get('/harga/voucher_tv','Pages::voucher_tv');
 $routes->get('/daftar/aplikasi','Pages::aplikasi');
-$routes->get('/daftar/whatsapp','Pages::whatsapp');
+$routes->get('/daftar','Pages::daftar');
 $routes->get('/daftar/sms','Pages::sms');
 $routes->get('deposit','Pages::deposit');
-$routes->get('/transaksi/trx_android','Pages::trx_android');
+$routes->get('/transaksi','Pages::transaksi');
+$routes->get('/contact', 'Pages::contact');
 
 /*
  * --------------------------------------------------------------------
